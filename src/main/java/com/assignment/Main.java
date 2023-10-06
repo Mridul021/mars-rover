@@ -17,7 +17,7 @@ public class Main {
         System.out.print("Enter grid Length: ");
         input.getGrid().setLength(sc.nextInt() + 1);
         System.out.print("Enter grid Breadth: ");
-        input.getGrid().setBreadth(sc.nextInt()+1);
+        input.getGrid().setBreadth(sc.nextInt() + 1);
         System.out.print("Enter number of obstacles: ");
         int n = sc.nextInt();
         for (int i = 1; i <= n; i++) {
