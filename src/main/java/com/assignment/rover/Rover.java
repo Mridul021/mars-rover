@@ -43,7 +43,7 @@ public class Rover {
         int newY = newPosition.getY();
 
         // Check if the new position is within the grid boundaries
-        if (newX >= 0 && newX < grid.getLength() && newY >= 0 && newY < grid.getBreadth()) {
+        if (newX >= 0 && newX <= grid.getLength() && newY >= 0 && newY <= grid.getBreadth()) {
             // Check for obstacles
             if (!grid.isObstacle(newX, newY)) {
                 currentPosition.setX(newX);
